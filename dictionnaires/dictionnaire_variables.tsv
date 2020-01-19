@@ -1,0 +1,32 @@
+variable	libelle_variable	commentaire_modalites	rubrique
+code_ucd13	Code UCD		101
+code_ucd_precedent	Code UCD Précédent	Ce champ permet de chaîner l'historique du Code UCD	101
+code_ucd_suivant	Code UCD Suivant	Ce champ permet de chaîner l'historique du Code UCD	101
+top_inscription	Identifie les circuits de délivrance : double (ville et hôpital) ou uniquement à l'Hôpital	Valeurs : 0 = Non Renseigné ; 1 = UCD délivrée sur circuits Assurés et Collectivités ; 2 = UCD délivrée sur circuit Collectivité uniquement	101
+laboratoire	Libellé court du Laboratoire exploitant		101
+date_source_doc	Date de parution de la dernière source documentaire relative à l'UCD		101
+type_source_doc	Libellé du Type de la dernière source documentaire relative à l'UCD		101
+date_maj	Date de la dernière Mise à Jour des données de l'UCD		101
+code_ucd	Code UCD sur 7 caractères	Ajout de notre part, non présent dans la norme d'échanges	101
+libelle_long_ucd	Libellé long de la désignation du médicament		101
+conditionnement	Libellé long du Conditionnement du Médicament		101
+observation	Libellé long de l'observation du Médicament		101
+etat	État	Valeurs : D = Commercialisé ; NC = Non Commercialisé ; S = Supprimé	102
+rh	Réserve hospitalière (CSP R.5121-82 à -83)	Valeurs : O = Oui ; N = Non	102
+ph	Prescription Hospitalière (CSP R.5121-84 à -86)	Valeurs : O = Oui ; N = Non	102
+pih	Prescription Initiale Hospitalière (CSP R.5121-87 à -89)	Valeurs : O = Oui ; N = Non	102
+sp	Surveillance Particulière(CSP R.5121-93 à-95)	Valeurs : O = Oui ; N = Non	102
+ps	Prescription par un Spécialiste (CSP R.5121-90 à -92)	Valeurs : O = Oui ; N = Non	102
+libelle_court_specialite	Libellé court de la spécialité du code UCD		102
+libelle_long_rcp	Libellé long du RCP du Code UCD	RCP : Résumé des caractéristiques du produit	102
+code_forme	Code interne de la Forme Pharmaceutique		102
+libelle_forme	Libellé de la Forme Pharmaceutique		102
+code_forme_complement	Code interne du Premier complément de Forme Pharmaceutique		102
+libelle_forme_complement	Concaténation des libellés des compléments de forme pharmaceutique dans la limite de 40 caractères. (Avec suppression des blancs inutiles).	Qualitatif(s) complémentaires(s) précisant la Forme.	102
+dosage	Dosage de la première substance active		102
+unite_dosage	Unité de dosage de la première substance active		102
+voie_administration	Voie d'administration		102
+code_atc	Code de la classe ATC		102
+libelle_atc	Libellé de la classe ATC		102
+code_ephmra	Code de la classe EPHMRA		102
+libelle_ephmra	Libellé de la classe EPHMRA		102
